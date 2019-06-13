@@ -25,59 +25,104 @@
 
 //Numeros en JavaScript
 
-const numero1 = 30,
-      numero2 = 20,
-      numero3 = 20.20,
-      numero4 = .1020,
-      numero5 = -3;
+// const numero1 = 30,
+//       numero2 = 20,
+//       numero3 = 20.20,
+//       numero4 = .1020,
+//       numero5 = -3;
 
-let resultado; 
+// let resultado; 
 
-//suma
-resultado = numero1 + numero2;
+// //suma
+// resultado = numero1 + numero2;
 
-//resta
-resultado = numero1 - numero2;
+// //resta
+// resultado = numero1 - numero2;
 
-//multiplicar
-resultado = numero1 * numero2;
+// //multiplicar
+// resultado = numero1 * numero2;
 
-//divisiones
-resultado = numero1 / numero2;
+// //divisiones
+// resultado = numero1 / numero2;
 
-//Modulo 
-resultado = numero1 % numero2;
+// //Modulo 
+// resultado = numero1 % numero2;
 
-//Pi
-resultado = Math.PI;
+// //Pi
+// resultado = Math.PI;
 
-//redondeo
+// //redondeo
 
-resultado = Math.floor(2.99);
+// resultado = Math.floor(2.99);
 
-//Raiz Cuadrada
-resultado = Math.sqrt(144);
+// //Raiz Cuadrada
+// resultado = Math.sqrt(144);
 
-//absoluto
-resultado = Math.abs(numero5);
+// //absoluto
+// resultado = Math.abs(numero5);
 
-//potencia
+// //potencia
 
-resultado = Math.pow(8,3);
+// resultado = Math.pow(8,3);
 
-//minimo
-resultado = Math.min(3,6,5,1,9,7,8);
+// //minimo
+// resultado = Math.min(3,6,5,1,9,7,8);
 
-//maximo
-resultado = Math.max(3,6,5,1,9,7,8);
+// //maximo
+// resultado = Math.max(3,6,5,1,9,7,8);
 
-//aleatorio
-resultado = Math.random();
+// //aleatorio
+// resultado = Math.random();
 
-resultado = (10 + 20) * 5;
+// resultado = (10 + 20) * 5;
 
-resultado = (10 + 20 + 20 +10 + 40) * .20;
+// resultado = (10 + 20 + 20 +10 + 40) * .20;
 
-let puntaje = 10;
+// let puntaje = 10;
 
-console.log(puntaje);
+// console.log(puntaje);
+
+
+let valor;
+
+//Primitivos
+valor = 'Juan';
+valor = 20;
+valor = 20.20;
+valor = -30;
+
+//Booleanos
+valor = true;
+//Null
+valor = null;
+
+//Symbol
+valor = Symbol('Simbolo');
+
+
+//Referencia u Objeto
+
+//Arreglo
+valor = [1,2,3,4];
+
+//Objeto
+valor = {
+    nombre: 'Juan',
+    profesion: 'Desarrollador Web'    
+}
+
+//Fecha
+valor = new Date();
+
+// valor = 'Cadena de texto';
+// valor = 20;
+// valor = true;
+// valor = null;
+// valor = undefined;
+// valor = {
+//     nombre: 'Juan'
+        // }
+
+console.log(typeof valor);
+
+
